@@ -1,0 +1,77 @@
+
+
+.hinhtrai{
+    margin-left: 165px;
+}
+.hinhphai{
+    margin-top: -295px;
+
+    margin-left: 365px;
+    
+}
+
+.ndtrai{
+    
+    width: 300px;
+    height: 250px;
+    margin-left: 169px;
+    position: absolute;
+}
+
+
+.ndphai{
+    border: 1px solid;
+    width: 850px;
+    height: 440px;
+    margin-left: 471px; ;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: justify;
+}
+.xpdg{
+    
+    margin-left: 169px ;
+    width: 1180px;
+    height: 50px;
+    margin-bottom: 2px;
+}
+.tenphim{
+    margin-left: 169px ;
+    width: 1180px; 
+    height: 50px;
+    
+    text-align: center;
+    line-height: 50px;
+    background-color: #151D25;
+    margin-top: -19px;
+}
+
+.binhluan{
+    margin: auto;
+  
+    width: 1090px;
+    height: 300px;
+    padding: 50px;
+    
+    
+}
+
+
+
+h4 {
+    margin-left: 165px;
+}
+
+.bl{
+    margin-top: 5px;
+    margin-left: 165px;
+}
+h2{
+    color: white;
+}
+.ytb{
+  text-align: center;
+}
+.fb-comments{
+    background-color: white;
+}

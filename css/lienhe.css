@@ -1,0 +1,174 @@
+body{
+    background-color: white;
+}
+.map{
+    margin-left: 750px;
+    padding: 60px;
+    font-size: 20px;
+    margin-right: 800px;
+    color: #272F54;
+}
+.nd{
+  margin: 90px;
+    
+    position: absolute;
+    font-size: 20px;
+    color: #272F54;
+    
+}
+.ht{
+    margin-bottom: 90px;
+}
+.bl{
+    text-align:center ;
+    
+}
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+   
+
+}
+.header{
+object-fit: cover;  
+
+}
+
+.logo{
+    width: 133px;
+    height: 40px;
+    background-image: url('../hinhanh/logo.png');
+  
+   margin-top: -44px;
+   margin-left: 20px;    
+}
+.ad2{
+    margin-left: 157px;
+}
+.nav{
+    background-color: #12171B;
+    height: 50px;
+    text-align: left;  
+ 
+    
+   
+}
+ul.khungnav li a{
+    color: #8e95a5;
+}
+ul.khungnav li a:hover{
+   color: white;
+    
+}
+
+.nav a{
+    color: white;
+    font-variant: small-caps;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 10px;
+    margin-left: 50px;  
+}
+.nav .timkiem{
+    border-radius: 8px;
+    margin-left: 900px;
+    width: 400px;
+   height: 35px;
+   position: absolute;
+   margin-top: -42px;
+
+ 
+   
+}
+.nav .khungnav{
+    margin-left: 100px;
+    margin-top: -98px;
+    
+}
+
+.nav .khungdn{
+   
+    
+    margin-left: 1410px;
+    
+   position: absolute;
+  margin-top: -61px;
+ 
+}
+
+.body{
+    min-height: 80vh;
+    display: flex;
+    background-color: #212B36;
+    
+}
+
+
+footer{
+    margin-top: 6px;
+    height: 100px;
+    width: 100%;
+    background-color: #151D25;
+    color: gray;
+    text-align: center;
+    padding-top: 1px;
+position: static;
+
+}   
+
+video{
+    display: inline;
+}
+
+.anime:hover img{
+    opacity: 0.6;
+}
+.noibat:hover img{
+    opacity: 0.6;
+}
+.bxhchinh:hover img{
+    opacity: 0.6;
+}
+.truyenchinh:hover img{
+    opacity: 0.6;
+}
+.khungdn:hover img{
+    opacity: 0.6;
+}
+.theloaichinh:hover a{
+ 
+ font-size: 19px;
+}
+.nav ul li{
+    display: inline-block;
+    
+    position: relative;
+}
+li ul.theloainho{
+    position: absolute;
+    background-color: white;
+    top: 40px;
+    padding: 0;
+    width: 200px;
+    border-radius: 10px;
+    display: none;
+}
+ul.theloainho li {
+    display: block;
+    margin: 0;
+    border-bottom: 1px dashed orange;
+}
+li ul.theloainho li a{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+

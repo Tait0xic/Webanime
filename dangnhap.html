@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="./css/dangnhap.css">
+    
+    
+        
+   
+</head>
+<body>
+    <div class="nav">
+        <div>
+            <a href="./index.html"><div class="logo"></div></a>
+        <input type="text" placeholder="Nhập tên phim" class="timkiem">
+        </div>
+        
+        <ul class="khungnav">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li class="theloai">
+                <a href="theloai.html">Thể loại</a>
+                <ul class="theloainho">
+                    <li><a href="#">Phiêu lưu</a></li>
+                    <li><a href="#">Drama</a></li>
+                    <li><a href="#">Hành động</a></li>
+                    <li><a href="#">Viễn tưởng</a></li>
+                    <li><a href="#">Học đường</a></li>
+                    <li><a href="#">Phép thuật</a></li>
+                    <li><a href="#">Kinh dị</a></li>
+                    <li><a href="#">Chuyển sinh</a></li>
+                    <li><a href="#">Samurai</a></li>
+                    <li><a href="#">Trinh thám</a></li>
+                    <li><a href="#">Âm nhạc</a></li>
+                    <li><a href="#">Thể thao</a></li>
+                    <li><a href="#">Nấu nướng</a></li>
+                    <li><a href="#">Shounen</a></li>
+                               </ul>
+            </li>
+            <li> <a href="bangxephang.html">Bảng xếp hạng</a></li>
+            <li><a href="truyen.html">Truyện</a></a></li>
+            <li><a href="lienhe.html">Liên hệ</a></li>                      
+           
+        </ul>   
+        <a  href="dangnhap.html" class="khungdn"> <img src="./hinhanh/dn.jpg" alt="" > </a>
+    </div>
+    <a href="dangky.html" class="kdk" ><img src="./hinhanh/dk1.jpg" width="140" alt=""></a>
+    <a href="dangnhap.html" class="kdn"><img src="./hinhanh/dn1.jpg" width="136" alt=""></a>
+          
+    <form name="myform" onsubmit="return validate()">   
+        <h2>Đăng nhập</h2>
+        <div class="khung">
+    
+        <label> <b>Tài khoản</b></label>
+        <br/>
+        <input type="text" name="name"  class="taikhoan" placeholder="Tài khoản ">
+        <span id="nameloc"></span>
+        <br/>
+        <label> <b>Mật khẩu</b></label>
+        <br/>
+        <input type="password" name="password" class="mk" placeholder="Mật khẩu hơn 6 ký tự">
+        <span id="passwordloc"></span><br>
+        
+        <input type="checkbox" >
+        <label>Ghi nhớ tài khoản?</label>
+       
+     <input type="submit" value="Đăng Nhập" class="dangnhap" >   
+    </div>
+   
+    </form>
+   <footer>
+    <p>Thông tin liên hệ
+        <br>
+        Điện thoại: 08 3467 2207
+        <br>
+        Email: duongtantaibmt@gmail.com
+        <br>
+        Địa chỉ: Tầng 4, ACM building, 96 Cao Thắng, Phường 4, Quận 3, Tp.HCM
+    </p>
+   </footer>
+   <script>
+        function validate() {
+        var name = document.myform.name.value;
+        var password = document.myform.password.value;
+        var status = false;
+ 
+        if (name.length < 1) {
+            document.getElementById("nameloc").innerHTML = 
+                " Tên không được để trống";
+            status = false;
+        }else{
+            document.getElementById("nameloc").innerHTML = 
+                "";
+        }
+        if (password.length < 6) {
+            document.getElementById("passwordloc").innerHTML = 
+                "Mật khẩu phải trên 6 kí tự";
+            status = false;
+        }else{
+            document.getElementById("passwordloc").innerHTML = 
+                "";
+        }
+        return status;
+    }
+   </script>
+</body>
+</html>

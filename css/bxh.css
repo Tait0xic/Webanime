@@ -1,0 +1,17 @@
+.bxh{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+.bxh .bxhchinh{
+    width: 275px;
+    height: 190px;
+   
+    margin: 10px;
+}
+body{
+    background-color: #172636;
+}

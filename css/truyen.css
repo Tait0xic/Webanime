@@ -1,0 +1,22 @@
+.truyen{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  font-weight: bold;
+ margin-left: 15px;
+
+ 
+}
+.truyen .truyenchinh{
+    width: 192px;
+    height: 300px;
+ margin-left: 100px;
+    margin: 10px;
+    
+}
+
+body{
+    background-color: #172636;
+    
+}
+

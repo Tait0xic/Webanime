@@ -1,0 +1,212 @@
+body{
+    background: rgb(91, 91, 224);
+}
+form{
+   
+    background: white;
+    width: 500px;
+    height: 400px;
+    margin: 70px auto;
+    
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+h2{
+    margin-top: 20px;
+    padding-top: 20px;
+   
+    text-align: center;
+}
+.khung{
+    margin:50px;
+    margin-bottom: 15px;
+
+}
+.taikhoan{
+    width: 400px;       
+    height: 40px;
+    border-radius: 5px ;
+    margin: 5px;
+    margin-bottom: 15px;
+    border:2px gray solid; 
+}
+ 
+.tk{
+    width: 400px;       
+    height: 40px;
+    border-radius: 5px ;
+    margin: 5px;
+    margin-bottom: 15px;
+    border:2px gray solid; 
+
+
+}
+.mk{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    margin-bottom: 15px;
+    border:2px gray solid;  
+
+
+    
+
+}
+
+
+
+
+.dangnhap{
+    width: 410px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;    
+    background-color:rgb(91, 91, 224);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.khungdn:hover img{
+    opacity: 0.6;
+}
+.kdk:hover img{
+    opacity: 0.6;
+}
+.kdn:hover img{
+    opacity: 0.6;
+}
+.forgot{
+   float: right;
+}
+
+
+
+    h4 {
+        margin-left: 165px;
+    }
+    
+    body{
+        margin: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+       
+      
+    }
+    .header{
+    
+        object-fit: cover;
+    }
+    .logo{
+        width: 133px;
+        height: 40px;
+        background-image: url('../hinhanh/logo.png');
+      
+       margin-top: -44px;
+       margin-left: 20px;    
+    }
+    .nav{
+        background-color: #12171B;
+        height: 50px;
+        text-align: left;
+        
+        
+      
+        
+        
+    }
+    .nav a{
+        color: white;
+        font-variant: small-caps;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 50px;
+        margin: 10px;
+        margin-left: 50px;  
+    }
+    .nav .timkiem{
+        border-radius: 8px;
+        margin-left: 900px;
+        width: 400px;
+       height: 35px;
+       position: absolute;
+       margin-top: -42px;
+    
+     
+       
+    }
+    .nav .khungnav{
+        margin-left: 100px;
+        margin-top: -98px;
+        
+    }
+    
+    .nav .khungdn{
+       
+        
+        margin-left: 1410px;
+        
+       position: absolute;
+      margin-top: -61px;
+     
+    }
+    footer{
+        height: 100px;
+        background-color: #151D25;
+        color: gray;
+        text-align: center;
+       padding-top: 1px;
+    
+    }   
+    
+    
+    ul.khungnav li a{
+        color: #8e95a5;
+    }
+    ul.khungnav li a:hover{
+       color: white;
+        
+    }
+    
+    
+    
+    
+    
+    
+    .nav ul li{
+        display: inline-block;
+        
+        position: relative;
+    }
+    li ul.theloainho{
+        position: absolute;
+        background-color: white;
+        top: 40px;
+        padding: 0;
+        width: 200px;
+        border-radius: 10px;
+        display: none;
+    }
+    ul.theloainho li {
+        display: block;
+        margin: 0;
+        border-bottom: 1px dashed orange;
+    }
+    li ul.theloainho li a{
+        color: orange;
+    }
+    
+    ul.theloainho li:hover{
+        background-color: orange;
+    }
+    
+    ul.theloainho li:hover a{
+        color: white;
+    }
+    li.theloai:hover ul.theloainho{
+        display: block;
+    }
+    ul{
+        margin-top: 0px;
+    }
+    
